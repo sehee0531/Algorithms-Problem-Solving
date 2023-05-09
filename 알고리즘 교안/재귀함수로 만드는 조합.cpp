@@ -20,8 +20,7 @@ void combi(int start, vector<int> v){
 		combi(i,v);
 		v.pop_back();
 	}
-	
-	
+	return;
 }
 int main(){
 	vector<int> v;
